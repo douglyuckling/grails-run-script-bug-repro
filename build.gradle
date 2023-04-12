@@ -109,3 +109,7 @@ assets {
     minifyJs = true
     minifyCss = true
 }
+
+runScript {
+  systemProperty "spring.devtools.restart.enabled", false
+}
